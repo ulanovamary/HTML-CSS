@@ -1,0 +1,143 @@
+.container {
+    width: 1200;
+    margin: 0 auto;
+}
+
+.navigation {
+    border: 1px solid blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    text-align: center;
+    border: 1px solid red;
+}
+.content {
+    border: 1px solid green;
+}
+
+.footer {
+    margin: 0 auto;
+    border: 1px solid grey;
+}
+.footer-top-content {
+    list-style-type: none;
+    width: 495px;
+}
+
+.footer-heading {
+    width: 340px;
+    justify-content: start;
+}
+
+.bottom-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.content-contacts{
+    border: 1px solid green;
+    float: left;
+}
+.list {
+    list-style-type: none;
+}
+
+.content-sending-form {
+    text-align: center;
+    border: 1px solid blue;
+}
+.content-map {
+    clear: both;
+    border: 2px solid purple;
+}
+
+.body {
+font-family: sans-serif;
+}
+
+.contact-middle-part {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-contacts {
+    border: 1px solid yellow;
+    float: left;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+/* Тексту под заголовком h1 указать ширину 425px*/
+.top_info {
+width: 425px;
+}
+
+/*Заголовку h1 указать ширину 510px*/
+.heading {
+    font-size: 64px;
+    color: #1F3F68;
+    width: 510px;
+}
+
+.products-heading {
+    width: 359px;
+}
+
+.what-we-do {
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.blocks-three {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block {
+    width: 300px;
+    height: 300px;
+    border: 3px solid salmon;
+}
+
+.contacts-heading {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;  
+}
+
+.heading-3 {
+    font-size: 36px;
+    text-align: center;   
+}
+
+.heading-4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;    
+}
+
+.send-button {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
